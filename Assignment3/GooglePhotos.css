@@ -1,0 +1,74 @@
+@font-face {
+    font-family: poppins;
+    src: url("Poppins-Light.ttf");
+}
+
+.box{
+    border: 1.8px solid rgb(222, 222, 222);
+    border-radius: 12px;
+    height: 600px;
+    width: 420px;
+    margin: 200px auto;
+    background-color: white;
+
+}
+
+.box-image{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-height: 40%;
+    width: 100% ;
+}
+.lock-image{
+    padding: 20px;
+}
+.box-content-heading{
+    color: #6C7073;
+    padding-top: 10px;
+    padding-left: 22px;
+    margin-top: -55px;
+    margin-left: 28px;
+    font-family:poppins;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.heading{
+    margin-top: -10px;
+    margin-left: 22px;
+    font-size: 23px;
+    color: black;
+    font-family:poppins;
+    font-weight: 600;
+}
+
+.box-content{
+    color: #6a6c6d;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn{
+    letter-spacing: 0.5px;
+    background-color: white;
+    color: #2176E8;
+    margin-top: 40px;
+    border: 1.5px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    height: 45px;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 800;
+}
+
+.btn:hover{
+    color:blue;
+    cursor:pointer;
+}
